@@ -38,20 +38,15 @@
             this.btnSave = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
             this.lblInfo = new System.Windows.Forms.Label();
-            this.openFileDialogDF1 = new System.Windows.Forms.OpenFileDialog();
-            this.openFileDialogDF2 = new System.Windows.Forms.OpenFileDialog();
             this.lblDf3Path = new System.Windows.Forms.Label();
             this.tbdf3 = new System.Windows.Forms.TextBox();
             this.btndf3 = new System.Windows.Forms.Button();
             this.tbdf4 = new System.Windows.Forms.TextBox();
             this.btndf4 = new System.Windows.Forms.Button();
             this.lblDf4Path = new System.Windows.Forms.Label();
-            this.openFileDialogDF3 = new System.Windows.Forms.OpenFileDialog();
-            this.openFileDialogDF4 = new System.Windows.Forms.OpenFileDialog();
             this.tbdf5 = new System.Windows.Forms.TextBox();
             this.btndf5 = new System.Windows.Forms.Button();
             this.lblDf5Path = new System.Windows.Forms.Label();
-            this.openFileDialogDF5 = new System.Windows.Forms.OpenFileDialog();
             this.pbNovaHQ = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pbNovaHQ)).BeginInit();
             this.SuspendLayout();
@@ -139,16 +134,6 @@
             this.lblInfo.Text = "Older programs used the registry to find game paths, this program creates those e" +
     "ntries.\r\n";
             // 
-            // openFileDialogDF1
-            // 
-            this.openFileDialogDF1.FileName = "df.exe";
-            this.openFileDialogDF1.Filter = "Delta Force 1|df.exe";
-            // 
-            // openFileDialogDF2
-            // 
-            this.openFileDialogDF2.FileName = "df2.exe";
-            this.openFileDialogDF2.Filter = "Delta Force 2|df2.exe";
-            // 
             // lblDf3Path
             // 
             this.lblDf3Path.AutoSize = true;
@@ -201,16 +186,6 @@
             this.lblDf4Path.TabIndex = 13;
             this.lblDf4Path.Text = "TFD Path";
             // 
-            // openFileDialogDF3
-            // 
-            this.openFileDialogDF3.FileName = "dflw.exe";
-            this.openFileDialogDF3.Filter = "Delta Force Land Warrior|dflw.exe";
-            // 
-            // openFileDialogDF4
-            // 
-            this.openFileDialogDF4.FileName = "dftfd.exe";
-            this.openFileDialogDF4.Filter = "Delta Force Task Force Dagger|dftfd.exe";
-            // 
             // tbdf5
             // 
             this.tbdf5.Location = new System.Drawing.Point(65, 166);
@@ -236,11 +211,6 @@
             this.lblDf5Path.Size = new System.Drawing.Size(55, 13);
             this.lblDf5Path.TabIndex = 16;
             this.lblDf5Path.Text = "BHD Path";
-            // 
-            // openFileDialogDF5
-            // 
-            this.openFileDialogDF5.FileName = "dfbhd.exe";
-            this.openFileDialogDF5.Filter = "Delta Force Black Hawk Down|dfbhd.exe";
             // 
             // pbNovaHQ
             // 
@@ -302,20 +272,15 @@
         private System.Windows.Forms.Button btnSave;
         private System.Windows.Forms.Button btnClose;
         private System.Windows.Forms.Label lblInfo;
-        private System.Windows.Forms.OpenFileDialog openFileDialogDF1;
-        private System.Windows.Forms.OpenFileDialog openFileDialogDF2;
         private System.Windows.Forms.Label lblDf3Path;
         private System.Windows.Forms.TextBox tbdf3;
         private System.Windows.Forms.Button btndf3;
         private System.Windows.Forms.TextBox tbdf4;
         private System.Windows.Forms.Button btndf4;
         private System.Windows.Forms.Label lblDf4Path;
-        private System.Windows.Forms.OpenFileDialog openFileDialogDF3;
-        private System.Windows.Forms.OpenFileDialog openFileDialogDF4;
         private System.Windows.Forms.TextBox tbdf5;
         private System.Windows.Forms.Button btndf5;
         private System.Windows.Forms.Label lblDf5Path;
-        private System.Windows.Forms.OpenFileDialog openFileDialogDF5;
         private System.Windows.Forms.PictureBox pbNovaHQ;
     }
 }
