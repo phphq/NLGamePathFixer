@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("NovaLogic game path fixer")]
-[assembly: AssemblyDescription("Game Path Fixer for older programs")]
+[assembly: AssemblyDescription("Fixes game install paths for old NovaLogic games")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Novahq.net")]
 [assembly: AssemblyProduct("NLGamePathFixer")]
-[assembly: AssemblyCopyright("(c) 2018")]
+[assembly: AssemblyCopyright("(c) 2018 Scott Lucht <Novahq.net>")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

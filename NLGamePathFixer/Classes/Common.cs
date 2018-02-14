@@ -1,10 +1,12 @@
-﻿namespace NLGamePathFixer.Classes
+﻿using System.Diagnostics;
+
+namespace NLGamePathFixer.Classes
 {
     public class Common
     {
         public static void GoToNovaHq()
         {
-            System.Diagnostics.Process.Start(Config.NoavHqUrlApp);
+            Process.Start(Config.NoavHqUrlApp);
         }
     }
 
